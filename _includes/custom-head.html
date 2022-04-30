@@ -15,7 +15,12 @@
 <script src="/mathjax/tex-chtml.js" id="MathJax-script" async></script>
  -->
  
-{% if page.layout == "problem-template" %}
+<!-- {% if page.layout == "problem-template" %}
   <script src="/assets/js/all.js"  type="text/javascript" charset="utf-8" defer></script>
   <script src="/assets/js/{{ page.js }}.js"  type="text/javascript" charset="utf-8" defer></script> 
+{% endif %} -->
+
+{% if page.layout == "problem-template" %}
+  <script src="/blog/assets/js/all.js"  type="text/javascript" charset="utf-8" defer></script>
+  <script src="/blog/assets/js/{{ page.js }}.js"  type="text/javascript" charset="utf-8" defer></script> 
 {% endif %}
