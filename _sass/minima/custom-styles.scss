@@ -1,2 +1,30 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.label-input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-block {
+    width: 70px;
+    border: 1px solid #000000;
+    //border-radius: 8px;
+    padding: 4px 7px;
+    margin: 8px 0;
+    font-size: 14px;
+    outline: none;
+}
+
+#solve {
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 6px;
+    margin: 6px 0;
+    border: 1px solid #000000;
+    background-color: #26a3c9;
+    color: white;
+    border-radius: 3px;
+}
+
+.m-d {
+    overflow-x: auto;
+    display: block;
+  }

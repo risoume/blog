@@ -340,13 +340,3 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
-
-
-/*
-  Mathjax overflow
-*/
-
-.m-d {
-  overflow-x: auto;
-  display: block;
-}
